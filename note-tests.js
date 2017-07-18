@@ -23,3 +23,12 @@ function testNoteInArray(){
 };
 
 testNoteInArray();
+
+// function testViewNoteList(){
+//   var notelist = new Notelist();
+//   var note = new Note("Coding is sexy!");
+//   notelist.pushToNoteModels(note);
+//   assert.isTrue();
+// };
+//
+// testNoteInArray();
