@@ -1,0 +1,23 @@
+{
+  "name": "further-javascript",
+  "version": "1.0.0",
+  "description": "notes app",
+  "main": "assert.js",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihobo/Further-Javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihobo/Further-Javascript/issues"
+  },
+  "homepage": "https://github.com/mihobo/Further-Javascript#readme"
+}
