@@ -34,3 +34,11 @@ function testViewNoteList(){
 };
 
 testViewNoteList();
+
+function testViewNoteList2(){
+  var notelist = new Notelist();
+  var notelistview = new NotelistView(notelist.noteModels);
+  assert.isTrue(notelistview.displayNotes() === "<ul><li><div></div></li>")
+};
+
+testViewNoteList2();
