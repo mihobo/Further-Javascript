@@ -24,11 +24,13 @@ function testNoteInArray(){
 
 testNoteInArray();
 
-// function testViewNoteList(){
-//   var notelist = new Notelist();
-//   var note = new Note("Coding is sexy!");
-//   notelist.pushToNoteModels(note);
-//   assert.isTrue();
-// };
-//
-// testNoteInArray();
+function testViewNoteList(){
+  var notelist = new Notelist();
+  var note = new Note("Coding is sexy!");
+  notelist.pushToNoteModels(note);
+  var notelistview = new NotelistView(notelist.noteModels);
+  assert.isTrue(notelistview.nlmodel[0].text === "Coding is sexy!");
+  assert.isTrue(notelistview.displayNotes() === "<ul><li><div>Coding is sexy!</div></li>")
+};
+
+testViewNoteList();
