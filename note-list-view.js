@@ -9,9 +9,14 @@
       return "<ul><li><div>" + this.nlmodel[i].text + "</div></li>";
      }
     } else {
-        return "<ul><li><div></div></li>"
+        return ""
     };
   };
 
 exports.NotelistView = NotelistView;
 })(this);
+
+
+// generate HTML for notelist
+// generate word for one note
+// use map rather than forEach??
